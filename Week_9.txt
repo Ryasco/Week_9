@@ -1,0 +1,14 @@
+A hash table is the right structure
+for fast lookups because it uses a hash function to jump directly to the correct
+location in the table rather than searching through the list one line at a time
+until it finds the correct line item, this makes the search much faster than a linear 
+search. I handled collisions by using separate chaining, when two contacts have the 
+same name the new contact is added to the linked list instead of replacing the existing
+contact. An engineer might choose a hash table over choosing a list or choosing a tree 
+when the engineer needs to utilize a fast insertion, deletion, or when a quick lookup is 
+needed and prioritized. An example of this, as is the meaning of this lab, is a contact list.
+When searching for a contact, you are brought directly to the contact you search instead of 
+scrolling through the list in a linear motion. Other examples of when a hash table is better 
+also includes user account databases, caches and dictionaries, where you want to search for a 
+specific value. A list is better when maintaining insertion order or performing sequential processing
+is important, whereas a tree is useful when data has to remain sorted and must remain in a certain order. 
